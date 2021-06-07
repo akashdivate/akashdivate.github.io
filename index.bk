@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet" type="text/css"/>
+    <link href="https://allfont.net/allfont.css?fonts=roboto-thin" rel="stylesheet" type="text/css" />
+    <title>Site Maintenance</title>
+        <style>
+            body { text-align: center; font-family: 'Raleway', sans-serif; padding: 150px; background-color: #202020; color: #ffffff}
+            h1 { font-size: 50px; font-family: 'Raleway', sans-serif; color: #ffffff }
+            article { display: block; text-align: center; width: 900px; margin: 0 auto;}
+            p:hover {color: #ff3333} 
+        </style>
+    </head> 
+    <body>
+        <article>
+            <h1>UNDER MAINTENANCE</h1>
+            <div>
+                <p>Sorry for the inconvenience but portfolio is under maintenance at the moment.</p>
+            </div>
+        </article>
+    </body>
+</html>
