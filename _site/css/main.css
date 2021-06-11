@@ -1178,6 +1178,13 @@ body.is-mobile #main > header { background-attachment: scroll; }
 
 @media screen and (max-width: 736px) { #banner-icons { padding: 3em 2em 1em 2em ; } }
 
+/* Interested Button */
+.container { height: auto; display: flex; align-items: center; justify-content: center; }
+
+.animated-word { font-family: sans-serif; letter-spacing: 0.4em; font-weight: 20px; font-size: 10px; text-align: center; color: #ffffff; cursor: pointer; max-width: 300px; width: 100%; outline: 2px solid; outline-color: rgba(255, 255, 255, 0.5); outline-offset: 10px; transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8); }
+
+.animated-word:hover { color: rgba(255, 255, 255, 0.7); font-size: 15px; font-weight: 30px; outline-color: rgba(71, 126, 232, 0); outline-offset: 300px; }
+
 /* Landing */
 body.landing #page-wrapper { background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg"); background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg"); background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg"); background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg"); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; padding-top: 0; }
 
